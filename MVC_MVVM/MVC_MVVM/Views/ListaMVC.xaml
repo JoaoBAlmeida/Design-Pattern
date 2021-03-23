@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVC_MVVM.Views.ListaMVC"
+             NavigationPage.HasBackButton="True">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Blue"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Button Text="Download List" BorderColor="Gray" HorizontalOptions="FillAndExpand" Clicked="GetList"/>
+            <ListView SeparatorColor="Red" x:Name="LvData" HorizontalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Text="Nome" Grid.Column="0" Grid.Row="0"/>
+                                <Label Text="{Binding Nome}" Grid.Column="1" Grid.Row="0"/>
+
+                                <Label Text="CPF" Grid.Column="0" Grid.Row="1"/>
+                                <Label Text="{Binding CPF}" Grid.Column="1" Grid.Row="1"/>
+
+                                <Label Text="Data de Nascimento" Grid.Column="0" Grid.Row="2"/>
+                                <Label Text="{Binding DataNascimento}" Grid.Column="1" Grid.Row="2"/>
+
+                                <Label Text="Altura" Grid.Column="0" Grid.Row="3"/>
+                                <Label Text="{Binding Altura}" Grid.Column="1" Grid.Row="3"/>
+
+                                <Label Text="Peso" Grid.Column="0" Grid.Row="4"/>
+                                <Label Text="{Binding Peso}" x:Name="lableTest" Grid.Column="1" Grid.Row="4"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

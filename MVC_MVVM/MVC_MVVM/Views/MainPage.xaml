@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVC_MVVM.Views.MainPage"
+             NavigationPage.HasBackButton="false">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Frame BackgroundColor="LightBlue" Padding="24" CornerRadius="25">
+                <StackLayout>
+                    <Label Text="Atividade de Presença 02" HorizontalTextAlignment="Center" HorizontalOptions="Center"/>
+                    <Button Text="Cadastro MVC" Clicked="GoCadastroMVC"/>
+                    <Button Text="Lista MVC" Clicked="GoListaMVC"/>
+                    <BoxView HeightRequest="1" BackgroundColor="White" HorizontalOptions="CenterAndExpand"/>
+                    <Button Text="Cadastro MVVM" Clicked="GoCadastroMVVM"/>
+                    <Button Text="Lista MVVM" Clicked="GoListaMVVM"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

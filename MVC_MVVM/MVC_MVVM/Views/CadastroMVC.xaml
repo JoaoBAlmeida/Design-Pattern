@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVC_MVVM.Views.CadastroMVC"
+             NavigationPage.HasBackButton="true">
+    <ContentPage.Resources>
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="LightBlue"/>
+            <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+            <Setter Property="WidthRequest" Value="200"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Padding="20" Spacing="10">
+            <Label Text="Cadastre-se"/>
+            <Entry x:Name="EntryNome" Placeholder="Nome do Paciente" />
+            <Entry x:Name="UserCPF" Placeholder="CPF do Usuário" Keyboard="Numeric"/>
+            <Entry x:Name="Date" Placeholder="Data de Nascimento DD/MM/YYYY"/>
+            <Entry x:Name="height" Placeholder="Sua Altura" Keyboard="Numeric"/>
+            <Entry x:Name="weight" Placeholder="Seu Peso" Keyboard="Numeric"/>
+            <Button HorizontalOptions="Center" Text="Cadastrar" Clicked="SaveIT"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

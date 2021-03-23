@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabricMethod", "FabricMethod.csproj", "{119D5A0B-5A34-4A63-B910-17A8F8E2B5DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119D5A0B-5A34-4A63-B910-17A8F8E2B5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119D5A0B-5A34-4A63-B910-17A8F8E2B5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119D5A0B-5A34-4A63-B910-17A8F8E2B5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119D5A0B-5A34-4A63-B910-17A8F8E2B5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9DE069C-BE7D-4B9D-9955-39F90DBB1223}
+	EndGlobalSection
+EndGlobal
