@@ -1,7 +1,0 @@
-C:\Users\jpbar\source\repos\TemplateMethod\bin\Debug\TemplateMethod.exe.config
-C:\Users\jpbar\source\repos\TemplateMethod\bin\Debug\TemplateMethod.exe
-C:\Users\jpbar\source\repos\TemplateMethod\bin\Debug\TemplateMethod.pdb
-C:\Users\jpbar\source\repos\TemplateMethod\obj\Debug\TemplateMethod.csprojAssemblyReference.cache
-C:\Users\jpbar\source\repos\TemplateMethod\obj\Debug\TemplateMethod.csproj.CoreCompileInputs.cache
-C:\Users\jpbar\source\repos\TemplateMethod\obj\Debug\TemplateMethod.exe
-C:\Users\jpbar\source\repos\TemplateMethod\obj\Debug\TemplateMethod.pdb

@@ -1,1 +1,0 @@
-C:\Users\jpbar\source\repos\MVC_MVVM\MVC_MVVM.UWP\MVC_MVVM.UWP.csproj;x86
